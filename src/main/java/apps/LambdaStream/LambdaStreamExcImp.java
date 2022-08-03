@@ -1,4 +1,4 @@
-package ca.jrvs.apps.practice;
+package apps.LambdaStream;
 
 import java.util.List;
 import java.util.function.Consumer;
