@@ -20,7 +20,7 @@ mvn clean compile package
 
 2.Run the jar file, with the following arguments:  
 ```
-java -cp target/grep-1.0-SNAPSHOT.jar ca.jrvs.apps.grep.JavaGrepImp <regex> <inputFilePath> <outFilePath>
+java -cp target/grep-1.0-SNAPSHOT.jar apps.grep.JavaGrepImp <regex> <inputFilePath> <outFilePath>
 # <regex>:a special text string for describing a search pattern
 # <inputFilePath>:the path of the directory/file to be searched
 # <outFilePath>:the path to the file where the search result is written to.
